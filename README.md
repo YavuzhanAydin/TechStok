@@ -21,18 +21,18 @@ MdiParent </br>
 
 <h2>📷 Ekran Görüntüleri</h2>
 
-<img src="images/images_1.png" alt="Giriş Paneli" width="500">
+<img src="images/image_1.png" alt="Giriş Paneli" width="500">
 
-<img src="images/images_2.png" alt="Kullanıcı ve Kategori İşlemleri" width="500">
+<img src="images/image_2.png" alt="Kullanıcı ve Kategori İşlemleri" width="500">
 
-<img src="images/images_3.png" alt="Ürün İşlemleri" width="500">
+<img src="images/image_3.png" alt="Ürün İşlemleri" width="500">
 
-<img src="images/images_4.png" alt="Raporlama İşlemleri" width="500">
+<img src="images/image_4.png" alt="Raporlama İşlemleri" width="500">
 
-<img src="images/images_5.png" alt="Ürün Sepeti Kısmı" width="500">
+<img src="images/image_5.png" alt="Ürün Sepeti Kısmı" width="500">
 
-<img src="images/images_6.png" alt="Satın Alma Faturası" width="500">
+<img src="images/image_6.png" alt="Satın Alma Faturası" width="500">
 
-<img src="images/images_7.png" alt="Siparişlerim Kısmı" width="500">
+<img src="images/image_7.png" alt="Siparişlerim Kısmı" width="500">
 
 
