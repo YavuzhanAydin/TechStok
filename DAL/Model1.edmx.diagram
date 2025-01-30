@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="06a3f2df39a843579ea2dec4e93ac8ed" Name="Diagram1">
+        <EntityTypeShape EntityType="TechStokDBModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_Kategori" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_Kullanicilar" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_Loglar" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_Parca" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_Siparis" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_SiparisDetay" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_Yedekleme" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.tbl_Yetki" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TechStokDBModel.vKullanicilar" Width="1.5" PointX="10.375" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="TechStokDBModel.FK_tbl_Parca_tbl_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="TechStokDBModel.FK_tbl_Kullanicilar_tbl_Yetki" ManuallyRouted="false" />
+        <AssociationConnector Association="TechStokDBModel.FK_tbl_Loglar_tbl_Kullanicilar" ManuallyRouted="false" />
+        <AssociationConnector Association="TechStokDBModel.FK_tbl_Siparis_tbl_Kullanicilar" ManuallyRouted="false" />
+        <AssociationConnector Association="TechStokDBModel.FK_tbl_Yedekleme_tbl_Kullanicilar" ManuallyRouted="false" />
+        <AssociationConnector Association="TechStokDBModel.FK_tbl_SiparisDetay_tbl_Parca" ManuallyRouted="false" />
+        <AssociationConnector Association="TechStokDBModel.FK_tbl_SiparisDetay_tbl_Siparis" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="TechStokDBModel.vUrunler" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="TechStokDBModel.vSiparis" Width="1.5" PointX="10.375" PointY="8.125" />
+        <EntityTypeShape EntityType="TechStokDBModel.vw_TopSellingProducts" Width="1.5" PointX="10.375" PointY="12" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
